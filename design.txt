@@ -1,0 +1,21 @@
+Title: Rooomies Bill
+
+Description:
+    Input: Total bill amount for a period of time, and number of days each roomie was home.
+
+    Output: Returns each roomie's share of the bill as a dollar amount.
+            Also, generates a pdf report including each roomie's name, date range (period),
+            each roomie's number of days at home, total bill, and each roomie's share of the bill.
+
+    Objects (attributes & methods):
+        Bill:
+            total
+            period
+        Roomie:
+            name
+            days_home
+            share
+            pays(bill)
+        Report:
+            filename
+            generate(roomie1, roomie2...roomie_n, bill)
